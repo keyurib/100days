@@ -1,7 +1,5 @@
 const ICON_PLAY =
   '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
-const ICON_CODE =
-  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg>';
 
 const pad = (n) => String(n).padStart(3, "0");
 
@@ -70,7 +68,6 @@ function renderProjects(data) {
           <ul class="tags">${p.tags.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
           <div class="actions">
             <a class="btn primary" href="${esc(p.url)}" target="_blank" rel="noopener">${ICON_PLAY} Open live</a>
-            <a class="btn" href="${esc(p.repo)}" target="_blank" rel="noopener">${ICON_CODE} Code</a>
           </div>
         </div>
       </li>`

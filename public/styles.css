@@ -57,8 +57,7 @@ a { color: inherit; }
   font-size: 13px;
   color: var(--ink-2);
 }
-.eyebrow a { text-decoration: none; color: var(--ink); font-weight: 600; }
-.eyebrow a:hover { text-decoration: underline; }
+.eyebrow strong { color: var(--ink); font-weight: 600; }
 
 .dot {
   width: 8px;

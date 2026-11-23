@@ -10,6 +10,8 @@ A plain static site (HTML, CSS, a little JavaScript) served by Cloudflare Worker
 Every project lives in `public/projects.json`, which drives both the 100-day board and the project cards.
 Thumbnails go in `public/thumbs/`.
 
+The page links only to live projects, never to GitHub. (Each project's GitHub repo links back to its live site instead.)
+
 ## Add a project
 
 Add an entry to `public/projects.json`:
@@ -25,8 +27,7 @@ Add an entry to `public/projects.json`:
   "tags": ["Next.js"],
   "accent": "#3fd0ff",
   "thumb": "thumbs/my-project.jpg",
-  "url": "https://my-project.keyurib.workers.dev",
-  "repo": "https://github.com/keyurib/my-project"
+  "url": "https://my-project.keyurib.workers.dev"
 }
 ```
 
