@@ -1,0 +1,19 @@
+{
+  "start": "2026-11-23",
+  "total": 100,
+  "projects": [
+    {
+      "day": 1,
+      "slug": "quote-generator",
+      "title": "Quote Quest",
+      "tagline": "An 8-bit random quote generator",
+      "description": "A retro arcade take on the quote generator: typewriter reveals, pixel-art author avatars, chiptune sound effects, XP and levels, a collectible quote Dex, and a 12-slot inventory of favorites.",
+      "date": "2026-11-23",
+      "tags": ["Next.js", "8bitcn/ui", "Tailwind", "Web Audio"],
+      "accent": "#ff4f8b",
+      "thumb": "thumbs/quote-generator.jpg",
+      "url": "https://quote-generator.keyurib.workers.dev",
+      "repo": "https://github.com/keyurib/quote-generator"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "100days",
+  "compatibility_date": "2026-11-01",
+  // Plain static site: everything in ./public is served as-is.
+  "assets": {
+    "directory": "./public"
+  }
+}

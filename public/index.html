@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>100 Days · keyurib</title>
+    <meta name="description" content="100 days, 100 small experimental web projects. One shipped every day." />
+    <meta property="og:title" content="100 Days · keyurib" />
+    <meta property="og:description" content="100 days, 100 small experimental web projects. One shipped every day." />
+    <meta name="theme-color" content="#0d0d10" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <p class="eyebrow mono">
+          <span class="dot" aria-hidden="true"></span>
+          <a href="https://github.com/keyurib">@keyurib</a> · building in public
+        </p>
+        <h1>
+          <span class="big">100</span>
+          <span class="word">Days</span>
+        </h1>
+        <p class="lede">
+          One small experimental project, shipped every day. Ideas, interfaces, and toys built fast
+          and put live, so you can open every one of them.
+        </p>
+
+        <dl class="stats mono" aria-label="Progress">
+          <div>
+            <dt>Shipped</dt>
+            <dd><span id="stat-shipped">0</span><small>/100</small></dd>
+          </div>
+          <div>
+            <dt>Day</dt>
+            <dd id="stat-day">1</dd>
+          </div>
+          <div>
+            <dt>Started</dt>
+            <dd id="stat-start">—</dd>
+          </div>
+        </dl>
+        <div class="meter" role="progressbar" aria-label="Series progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span id="meter-fill"></span>
+        </div>
+      </header>
+
+      <section aria-labelledby="grid-title" class="grid-section">
+        <div class="section-head">
+          <h2 id="grid-title">The board</h2>
+          <p class="mono hint">Each square is a day. Lit squares are live projects.</p>
+        </div>
+        <ol id="board" class="board"></ol>
+      </section>
+
+      <section aria-labelledby="projects-title">
+        <div class="section-head">
+          <h2 id="projects-title">Shipped</h2>
+          <p class="mono hint">Newest first</p>
+        </div>
+        <ul id="projects" class="projects"></ul>
+      </section>
+
+      <footer class="footer mono">
+        <span>Built by <a href="https://github.com/keyurib">keyurib</a></span>
+        <span>Every project is open source on GitHub</span>
+      </footer>
+    </div>
+
+    <noscript><p class="mono" style="text-align:center">Enable JavaScript to see the projects.</p></noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>
