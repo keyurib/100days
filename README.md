@@ -41,4 +41,4 @@ npx wrangler deploy   # publish
 
 | Day | Project | Live |
 | --- | --- | --- |
-| 1 | Quote Quest | https://quote-generator.keyurib.workers.dev |
+| 1 | Life Quest | https://life-quest.keyurib.workers.dev |

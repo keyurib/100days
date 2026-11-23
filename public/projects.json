@@ -4,16 +4,21 @@
   "projects": [
     {
       "day": 1,
-      "slug": "quote-generator",
-      "title": "Quote Quest",
-      "tagline": "An 8-bit random quote generator",
-      "description": "A retro arcade take on the quote generator: typewriter reveals, pixel-art author avatars, chiptune sound effects, XP and levels, a collectible quote Dex, and a 12-slot inventory of favorites.",
+      "slug": "life-quest",
+      "title": "Life Quest",
+      "tagline": "An 8-bit daily quest for a better life",
+      "description": "A retro RPG-style dashboard of 45 lessons across 9 paths, each pairing a short reflection with a small real-world quest. A fair Daily Quest rotation with streaks, path progress, favourites, XP and levels.",
       "date": "2026-11-23",
-      "tags": ["Next.js", "8bitcn/ui", "Tailwind", "Web Audio"],
-      "accent": "#ff4f8b",
-      "thumb": "thumbs/quote-generator.jpg",
-      "url": "https://quote-generator.keyurib.workers.dev",
-      "repo": "https://github.com/keyurib/quote-generator"
+      "tags": [
+        "Next.js",
+        "8bitcn/ui",
+        "Tailwind",
+        "Web Audio"
+      ],
+      "accent": "#b23a2a",
+      "thumb": "thumbs/life-quest.jpg",
+      "url": "https://life-quest.keyurib.workers.dev",
+      "repo": "https://github.com/keyurib/life-quest"
     }
   ]
 }
