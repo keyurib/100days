@@ -18,6 +18,23 @@
       "accent": "#b23a2a",
       "thumb": "thumbs/life-quest.jpg",
       "url": "https://life-quest.keyurib.workers.dev"
+    },
+    {
+      "day": 2,
+      "slug": "skyfall",
+      "title": "SkyFall",
+      "tagline": "An interactive WebGPU Mars hero: helicopters, radar, subsurface ice",
+      "description": "A cinematic WebGPU hero for a Mars mission concept. Three autonomous helicopters separate during descent and a radar sweep reveals possible subsurface ice; drag Mars, ping its surface, and explore hotspots. A conceptual visualization, not live data.",
+      "date": "2026-11-24",
+      "tags": [
+        "Next.js",
+        "WebGPU",
+        "vgpu",
+        "WGSL"
+      ],
+      "accent": "#ff5a36",
+      "thumb": "thumbs/skyfall.jpg",
+      "url": "https://skyfall.keyurib.workers.dev"
     }
   ]
 }
