@@ -23,14 +23,14 @@
       "day": 2,
       "slug": "skyfall",
       "title": "SkyFall",
-      "tagline": "An interactive WebGPU Mars hero: helicopters, radar, subsurface ice",
-      "description": "A cinematic WebGPU hero for a Mars mission concept. Three autonomous helicopters separate during descent and a radar sweep reveals possible subsurface ice; drag Mars, ping its surface, and explore hotspots. A conceptual visualization, not live data.",
+      "tagline": "Beneath the Red, a Future Awaits",
+      "description": "A cinematic, interactive hero for a Mars mission concept: three helicopters released mid-descent scan a procedural Mars for subsurface ice. Drag to turn the planet, click to ping it. Conceptual, not live mission data.",
       "date": "2026-11-24",
       "tags": [
         "Next.js",
         "WebGPU",
-        "vgpu",
-        "WGSL"
+        "WGSL",
+        "TypeScript"
       ],
       "accent": "#ff5a36",
       "thumb": "thumbs/skyfall.jpg",
