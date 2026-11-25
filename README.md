@@ -44,3 +44,4 @@ npx wrangler deploy   # publish
 | --- | --- | --- |
 | 1 | Life Quest | https://life-quest.keyurib.workers.dev |
 | 2 | SkyFall | https://skyfall.keyurib.workers.dev |
+| 3 | Locale | https://locale.keyurib.workers.dev |

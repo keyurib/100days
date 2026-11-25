@@ -35,6 +35,23 @@
       "accent": "#ff5a36",
       "thumb": "thumbs/skyfall.jpg",
       "url": "https://skyfall.keyurib.workers.dev"
+    },
+    {
+      "day": 3,
+      "slug": "locale",
+      "title": "Locale",
+      "tagline": "Your neighbourhood, planned",
+      "description": "Mission: Steal the System. A new product in Airbnb's design language: one curated evening plan around Manek Chowk, Ahmedabad, with places to explore and stop-by-stop details. A concept demo with sample data, not an Airbnb product.",
+      "date": "2026-11-25",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SkillUI"
+      ],
+      "accent": "#ff385c",
+      "thumb": "thumbs/locale.jpg",
+      "url": "https://locale.keyurib.workers.dev"
     }
   ]
 }
